@@ -1,0 +1,287 @@
+*{
+    font-family:monospace;
+}
+.left-container{
+    display:flex ;
+    flex-direction: column;
+    flex: 15% 0 0 ;
+    background-color: gray;   
+}
+.main-container{
+    display: flex;
+}
+.right-container{
+    display: flex;
+    flex-direction: column;
+    flex: 90% 0 0;
+    background-color: white;
+    margin-left: 10%;
+}
+.pos{
+   height: 100%;
+   width: 10%;
+   position: fixed;
+}
+.nav{
+    text-align: center;
+}
+
+.box{
+    height:126px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+
+}
+.bi-house-heart-fill{
+    font-size: 40px;
+}
+.bi-person-circle{
+    font-size: 36px;
+}
+.fa-file{
+    font-size: 37px;
+}
+.bi-telephone-plus-fill{
+    font-size: 33px;    
+}
+.home:hover{
+    background-color: rgb(78, 76, 76);
+    cursor: pointer;
+    text-align: center;
+}
+.about:hover{
+    background-color: rgb(78, 76, 76);
+    cursor: pointer;
+    text-align: center;
+}
+.project:hover{
+    background-color: rgb(78, 76, 76);
+    cursor: pointer;
+    text-align: center;
+}
+.contact:hover{
+    background-color: rgb(78, 76, 76);
+    cursor: pointer;
+    text-align: center;
+}
+.name:hover{
+    background-color: rgb(78, 76, 76);
+    cursor: pointer;
+    text-align: center;
+}
+.head-title{
+    margin: 200 0 ;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100px;
+}
+
+.banner{
+    text-align: center;
+}
+.head-title{
+    font-size: 140px;
+    padding: 15 0 20 0;
+}
+.scroll{
+    font-size: 40px;
+    padding: 5 0;
+}
+.about-me{
+    display: flex;
+    height: 640px;
+    margin: 20 0;
+
+} 
+.img{
+    width: 50%;
+    margin: 30 0;
+}
+.para{
+    margin: 120 0;
+    width: 50%;
+    font-size: 30px;
+}
+.btn{
+    margin:  4 0 3 0;
+    color: white;
+    background-color: rgb(66, 58, 58);
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 5px;
+}
+.programing{
+    background-color: grey;
+    width: 70%;
+    border-radius: 15px;
+    padding: 2 10;
+}
+.skill-pro{
+    background-color: black;
+    width: 350px;
+    margin: 20 0;
+    border-radius: 15px;
+    display: flex;
+
+}
+.web-dev{
+    background-color: grey;
+    width: 83%;
+    border-radius: 15px;
+    padding: 2 10;
+}
+.communication{
+    background-color: grey;
+    width: 90%;
+    border-radius: 15px;
+    padding: 2 10;
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    height: 255px;
+    width: 100%;
+    margin: 0px;
+    justify-content: space-evenly;
+
+}
+
+#proj-1{
+    display: flex;
+    width: 30%;
+    background-color: rgb(217, 255, 0);
+    border-radius: 15px;
+    box-shadow: 6px 8px 20px 0px black;     
+}
+#proj-2{
+    display: flex;
+    width: 30%;
+    box-shadow: 6px 8px 20px 0px black;
+    background-color: blue;
+    border-radius: 15px;
+}
+#proj-3{
+    display: flex;
+    width: 30%;   
+    background-color: rgb(102, 15, 98);
+    border-radius: 15px;
+    box-shadow: 6px 8px 20px 0px black;
+}
+.proj-head{
+    font-size: 70px;
+    margin: 20 400;
+}
+#proj-4{
+    display: flex;
+    width: 30%;
+    background-color: rgb(217, 255, 0);
+    border-radius: 15px;
+    box-shadow: 6px 8px 20px 0px black;
+}
+#proj-5{
+    display: flex;
+    width: 30%;
+    background-color: blue;
+    border-radius: 15px;
+    box-shadow: 6px 8px 20px 0px black;
+}
+#proj-6{
+    display: flex;
+    width: 30%;   
+    background-color: rgb(102, 15, 98);
+    border-radius: 15px;
+    box-shadow: 6px 8px 20px 0px black;
+}
+.projects1{
+    display: flex;
+    flex-direction: row;
+    height: 255px;
+    width: 100%;
+    margin: 20 0;
+    justify-content: space-evenly;
+}
+.contact-r{
+    display: flex;
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    margin: 20px 0 ;
+}
+.box1{
+    height: 200px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mail:hover{
+    background-color: rgb(126, 111, 111);
+    cursor: pointer;
+    color: black;   
+}
+.phone:hover{
+    background-color: rgb(126, 111, 111);
+    cursor: pointer;
+    color: black;    
+
+}
+.insta:hover{
+    background-color:  rgb(126, 111, 111);
+    cursor: pointer;
+    color: black;
+}
+.github:hover{
+    background-color: rgb(126, 111, 111);
+    cursor: pointer;
+    color: black;
+}
+.bi{
+    font-size: 50px;
+}
+.mail{
+    background-color: rgb(65, 58, 58);
+    color: white;
+}
+.phone{
+    background-color: rgb(65, 58, 58);
+    color: white;
+}
+.insta{
+    background-color: rgb(65, 58, 58);
+    color: white;
+}
+.github{
+    background-color: rgb(65, 58, 58);
+    color: white;
+}
+.contact-h{
+    font-size: 65px;
+    margin: 30px 39% ;
+}
+footer{
+    background-color: rgb(24, 10, 10);
+    font-size: 15px;
+    text-align: center;
+    height: 25px;
+    padding: 20px ;
+    color: white;
+}
+.bi-c-circle{
+    font-size: 15px;
+}
+.signup{
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+.table{
+    margin: 0 26%;
+}
+
+
+
+
+
+
+
+
